@@ -49,7 +49,7 @@ class sertifikat: public event{
     int ID_Serti;
 
     //method
-    getunduhSertif();
-    getViewlistPeserta_Hadir();
-    postSertifikat();
+    void getunduhSertif();
+    void getViewlistPeserta_Hadir();
+    void postSertifikat();
 };

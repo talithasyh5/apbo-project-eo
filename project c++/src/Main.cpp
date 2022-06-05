@@ -40,11 +40,13 @@ int main(int argc, char const *argv[])
                 cout << "Password: "; 
                 cin >> user_peserta.password;
                 cout << "anda sudah terdaftar";
+                break;
             case 2:
                 cout << "Email: ";
                 cin >> user_peserta.email;
                 cout << "Password: ";
                 cin >> user_peserta.password;
+                break;
             };
     };
 };

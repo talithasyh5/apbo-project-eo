@@ -8,8 +8,8 @@ class User{
     public :
         string nama;
         int ID;
-        char email;
-        char password;
+        string email;
+        string password;
 
     //method
     void getSignUp();
